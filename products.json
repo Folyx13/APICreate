@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone X",
+    "year": 2023,
+    "desc": "A powerful smartphone with advanced features.",
+    "price": 799.99,
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "title": "Laptop Pro",
+    "year": 2023,
+    "desc": "High-performance laptop for professional use.",
+    "price": 1499.99,
+    "color": "Silver"
+  },
+  {
+    "id": 3,
+    "title": "Wireless Headphones",
+    "year": 2023,
+    "desc": "Noise-canceling headphones for immersive audio.",
+    "price": 249.99,
+    "color": "White"
+  },
+  {
+    "id": 4,
+    "title": "Smartwatch 3.0",
+    "year": 2023,
+    "desc": "Track your fitness and stay connected on the go.",
+    "price": 349.99,
+    "color": "Blue"
+  },
+  {
+    "id": 6,
+    "title": "titi",
+    "year": "1985",
+    "desc": "cest une bd",
+    "price": "369",
+    "color": "noir"
+  },
+  {
+    "id": 7,
+    "title": "testurue",
+    "year": "1898",
+    "desc": "fe",
+    "price": "152",
+    "color": "black"
+  }
+]
