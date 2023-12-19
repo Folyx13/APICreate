@@ -6,13 +6,17 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+require('dotenv').config();
 
-// Connexion à MongoDB Cloud
-const mongoURI = 'mongodb+srv://christin:3WApass@cluster0.hbrunvd.mongodb.net/?retryWrites=true&w=majority';
-mongoose.connect(mongoURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+
+module.exports = async () => {
+    try {
+        await mongoose.connect(process.env.DB_URL);
+    } catch (err) {
+        console.error(err);
+    }
+};
+
 
 
 const db = mongoose.connection;
